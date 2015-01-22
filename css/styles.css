@@ -1,7 +1,13 @@
 /*specific styles for bootstrap demo*/
 
 h3{
-    font-family:"Myriad Pro"
+    font-family:"Myriad Pro";
+    font-size: 20pt;
+    color:#2190e8;
+}
+
+h4{
+    color:#2190e8;
 }
 
 .gray-box{
@@ -31,15 +37,18 @@ h3{
 
 .top-bar{
     background:#2190e8;
-    height: 35px;
+    min-height: 35px;
     color: white;
     padding-top: 2px;
     padding-bottom: 1px;
 }
 
+.MINI{
+    text-align: right;
+}
 .nav-bar{
     background:#164972;
-    height: 100px;
+    min-height: 100px;
     color: white;
     
 }
@@ -57,9 +66,26 @@ h3{
 
 .announce{
     background: white;
-    border: 1px solid black;
+    border: 1px solid gray;
     color:orange;
-    height:30px;
+    height:40px;
+    padding-top: 8px
+}
+
+.announcement-text{
+    color:gray;
+    background: white;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height:40px;
+    padding-top: 8px
+}
+
+.announce-arrows{
+    padding-left:15px;
+    padding-top:8px;
+    border: 1px solid gray;
+    height:40px;
 }
 
 .left-col{
@@ -70,8 +96,21 @@ h3{
 }
 
 .tasks{
-    border:1px solid black;
+    border-left:1px solid gray;
     height:300px;
+}
+
+.task-item{
+    min-height:20px;
+    color: #2190e8;
+    font-size:13pt;
+}
+
+.person-icon{
+    border: 1px solid gray;
+    border-radius:2px;
+    color:gray;
+    width:22%;
 }
 
 .float-right{
@@ -79,34 +118,60 @@ h3{
 }
 
 .recs{
-    border:1px solid black;
+    border-right:1px solid gray;
+    border-top: 1px solid gray;
+    color:gray;
     height:300px;
+}
+
+h5{
+    font-size:12pt;
+}
+
+.subhead{
+    font-size:8pt;
+    line-height: 2%
+}
+
+.lead-lg{
+    line-height: 200%
+}
+
+.lead-sm{
+    line-height: 200%
 }
 
 .analytics{
     background: white;
-    border: 1px solid black;
-    color:blue;
+    border-right: 1px solid black;
+    color:gray;
     height:700px;
 }
 
 .act-channels{
     background: white;
-    border: 1px solid black;
-    color:blue;
+    border-right: 1px solid black;
+    color:gray;
+    height:300px;
+}
+
+.act-channels{
+    background: white;
+    
+    color:gray;
     height:300px;
 }
 
 .analytics-2{
     background: white;
-    border: 1px solid black;
+    border-right: 1px solid black;
     color:blue;
     height:150px;
 }
 
 .social{
     background: white;
-    border: 1px solid black;
+    
     color:blue;
     height:50px;
     text-align: center
@@ -118,10 +183,22 @@ h3{
     height:100px
 }
 
+
+
 .ad-strip{
     background:#2190e8;
     border: 1px solid black;
     height: 200px;
+    padding: 20px;
+    
+}
+
+.ads{
+    background: white;
+    border-radius: 7px;
+    height: 150px;
+    margin: 10px;
+
 }
 
 .footer{
