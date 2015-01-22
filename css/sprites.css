@@ -1,0 +1,86 @@
+.dash, .graph, .messages, .paper, .people, .tag, .dash:hover, .graph:hover, .messages:hover, .paper:hover, .people:hover, .tag:hover{
+	background: url(sprites.png) no-repeat;
+	display: block;
+	
+}
+
+.dash{
+	background-position: 0 0;
+	width: 90px;
+	height: 98px;
+	
+	
+}
+
+.graph{
+	background-position: -500px 0;
+	width: 90px;
+	height: 98px;
+	
+	
+}
+
+.messages{
+	background-position: -200px 0;
+	width: 88px;
+	height: 98px;
+}
+
+.paper{
+	background-position: -400px 0;
+	width: 90px;
+	height: 98px;
+}
+
+.people{
+	background-position: -100px 0;
+	width: 90px;
+	height: 98px;
+}
+
+.tag{
+	background-position: -300px 0;
+	width: 90px;
+	height: 98px;
+}
+
+.dash:hover{
+	background-position: 0 -100px ;
+	width: 90px;
+	height: 98px;
+	
+	
+}
+
+.graph:hover{
+	background-position: -500px -100px ;
+	width: 90px;
+	height: 98px;
+	
+	
+}
+
+.messages:hover{
+	background-position: -200px -100px ;
+	width: 88px;
+	height: 98px;
+}
+
+.paper:hover{
+	background-position: -400px -100px ;
+	width: 90px;
+	height: 98px;
+}
+
+.people:hover{
+	background-position: -100px -100px ;
+	width: 90px;
+	height: 98px;
+}
+
+.tag:hover{
+	background-position: -300px -100px ;
+	width: 90px;
+	height: 98px;
+}
+

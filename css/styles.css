@@ -1,0 +1,214 @@
+/*specific styles for bootstrap demo*/
+
+h3{
+    font-family:"Myriad Pro"
+}
+
+.gray-box{
+    border: 1px solid black;
+    background:gray;
+    height: 200px;
+    padding: 25px;
+}
+
+.gray2-box{
+    background: gray;
+    height:200px;
+    border: 2px solid black;
+}
+
+.white-box{
+    background: white;
+    height:100px;
+    border:1px solid black;
+}
+
+.white{
+    background: white;
+    border: 1px solid black;
+    height:200px;
+}
+
+.top-bar{
+    background:#2190e8;
+    height: 35px;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.nav-bar{
+    background:#164972;
+    height: 100px;
+    color: white;
+    
+}
+
+.main-content{
+    background:white;
+}
+
+.search{
+    background:#33cc66;
+    height:60px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.announce{
+    background: white;
+    border: 1px solid black;
+    color:orange;
+    height:30px;
+}
+
+.left-col{
+    background: white;
+    border: 1px solid black;
+    color:blue;
+    height:700px;
+}
+
+.tasks{
+    border:1px solid black;
+    height:300px;
+}
+
+.float-right{
+    float:right
+}
+
+.recs{
+    border:1px solid black;
+    height:300px;
+}
+
+.analytics{
+    background: white;
+    border: 1px solid black;
+    color:blue;
+    height:700px;
+}
+
+.act-channels{
+    background: white;
+    border: 1px solid black;
+    color:blue;
+    height:300px;
+}
+
+.analytics-2{
+    background: white;
+    border: 1px solid black;
+    color:blue;
+    height:150px;
+}
+
+.social{
+    background: white;
+    border: 1px solid black;
+    color:blue;
+    height:50px;
+    text-align: center
+    
+}
+
+.know{
+    background-color: #2190e8;
+    height:100px
+}
+
+.ad-strip{
+    background:#2190e8;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.footer{
+    background: gray;
+    height:50px
+}
+
+h4{
+    color: white;
+    padding-top:5px
+}
+
+.center{
+    text-align: center;
+    padding-left: 65px;
+    
+}
+
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#tfheader{
+		background-color:#33cc66;
+                border-radius: 5px;
+	}
+	.tfnewsearch{
+		float:right;
+		padding:15px;
+	}
+	.tftextinput4{
+		
+                margin-top: 6px;
+                margin-bottom: 6px;
+		padding: 6px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px solid #0076a3 ;
+		border-top-left-radius: 2px 2px;
+		border-bottom-left-radius: 2px 2px;	
+	}
+	.tfbutton4 {
+                
+                margin:0px;
+		padding-bottom: 2px;
+		width:33px;
+		height:33px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		border: 1px solid #0076a3;
+                border-right:1px solid #0076a3;
+                border-left:0px;
+		border-top-right-radius: 2px 2px;
+		border-bottom-right-radius: 2px 2px;
+		background: white url('search-icon.png');
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton4::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+.float{
+    float: right
+}
+
+
+.circle
+{
+width:20px;
+height:20px;
+border-radius:50%;
+font-size:10px;
+color:white;
+line-height:20px;
+text-align:center;
+background:#33cc66
+}
