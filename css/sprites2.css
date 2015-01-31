@@ -1,0 +1,28 @@
+.task-person-icon-blue, .task-person-icon-blue:hover{
+	background: url(sprites2.png) no-repeat;
+	display: block;
+}
+
+.task-person-icon-blue{
+	background-position: -39px -29px ;
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	float:left;
+	
+}
+
+.task-person-icon-blue:hover{
+	background-position: -90px -29px ;
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	float:left;
+}
+
