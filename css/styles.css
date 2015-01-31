@@ -1,47 +1,108 @@
 /*specific styles for bootstrap demo*/
 
-h3{
+@font-face {
     font-family:"Myriad Pro";
+    src: url();
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    font-family: "Myriad Pro"
+}
+  
+  
+h3{
     font-size: 20pt;
     color:#2190e8;
 }
 
+
 h4{
-    color:#2190e8;
+    color: white;
+    padding-top:5px;
+    font-size:20pt;
+    line-height:0.9em;
 }
+
+h5{
+    font-size:14pt;
+    line-height:0.5em;
+}
+
+h5:hover{
+    color:black;
+    text-decoration: none;
+}
+
+h6{
+    font-size:12pt;
+}
+
+.gradient {
+    min-height: 1300px;
+    border-radius: 8px;
+    background:-webkit-linear-gradient(#f6f6f6,white); /* For Safari 5.1 to 6.0 */
+    background:-o-linear-gradient(#f6f6f6,white); /* For Opera 11.1 to 12.0 */
+    background:-moz-linear-gradient(#f6f6f6,white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f6f6f6,white); /* Standard syntax (must be last) */
+    
+    margin-top:10px;
+    margin-left: 100px;
+    margin-right:100px;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+   
+    
+}
+
+.main{
+    padding-right:60px;
+    padding-left:13px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+
+.announce-label{
+    line-height: 1.7em
+}
+
+
+
+.arrow-box {
+	position: relative;
+	top:1em;
+	left: 1.7em;
+	background: transparent;
+   
+}
+.arrow-box:after {
+	bottom: -5%;
+	left: 51%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 25px;
+	margin-left: -50px;
+}
+
+
+
 
 a:hover{
     text-decoration: none
 }
 
-.gray-box{
-    border: 1px solid black;
-    background:gray;
-    height: 200px;
-    padding: 25px;
-}
 
-.gray2-box{
-    background: gray;
-    height:200px;
-    border: 2px solid black;
-}
-
-.white-box{
-    background: white;
-    height:100px;
-    border:1px solid black;
-}
-
-.white{
-    background: white;
-    border: 1px solid black;
-    height:200px;
-}
 
 .top-bar{
     background:#2190e8;
-    min-height: 35px;
+    height: 35px;
     color: white;
     padding-top: 2px;
     padding-bottom: 1px;
@@ -50,18 +111,24 @@ a:hover{
 .MINI{
     text-align: right;
 }
+
+
 .nav-bar-lg{
-    background:#164972;
+    background: transparent;
     min-height: 100px;
     color: white;
     
 }
 
 .nav-bar-sm{
-    background:#164972;
+    background: transparent;
     min-height: 196px;
     color: white;
     
+}
+
+.navbar-background{
+    background: url(dashboard-background.png);
 }
 
 .main-content{
@@ -73,6 +140,7 @@ a:hover{
     height:60px;
     border-radius: 5px;
     padding-top: 5px;
+    margin-top:7px;
 }
 
 .announce{
@@ -88,6 +156,7 @@ a:hover{
     background: white;
     border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
     height:40px;
     padding-top: 8px
 }
@@ -95,8 +164,11 @@ a:hover{
 .announce-arrows{
     padding-left:15px;
     padding-top:8px;
-    border: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
     height:40px;
+    background: white;
 }
 
 .left-col{
@@ -127,6 +199,20 @@ line-height:20px;
 text-align:center;
 background:#33cc66
 }
+
+.circle:hover
+{
+width:20px;
+height:20px;
+border-radius:50%;
+font-size:10px;
+color:white;
+line-height:20px;
+text-align:center;
+background:gray;
+}
+
+
 
 .task-item{
     min-height:20px;
@@ -176,14 +262,7 @@ background:#33cc66
     border-bottom: 2px dotted #e5e5e5;
 }
 
-h5{
-    font-size:12pt;
-}
 
-h5:hover{
-    color:black;
-    text-decoration: none;
-}
 
 .subhead{
     font-size:8pt;
@@ -206,7 +285,7 @@ h5:hover{
     padding: 20px
 }
 
-select {
+//*select {
     float:right;
     margin: 0.5px;
     border: 1px solid #111;
@@ -220,7 +299,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     background:url(http://www.stackoverflow.com/favicon.ico) 96% / 18% no-repeat;
-}
+}*//
 
 .caret{
     color:orange;
@@ -235,7 +314,6 @@ select {
 
 .act-channels{
     background: white;
-    
     color:gray;
     height:300px;
 }
@@ -249,12 +327,51 @@ select {
 }
 
 .analytics-graph{
-    width:90%
+    width:82%
 }
 
 .channels-pie{
     width:100%
 }
+
+.regular-checkbox:before{
+    content: url(checkbox-before-space.png);
+    position: relative;
+    left:0px;
+    right:1px;
+    top: -5px;
+    margin:-0.2em;
+    -webkit-appearance: none;
+}
+
+
+.regular-checkbox:checked{
+    content: url(checkbox-check-background.png);
+    position:relative;
+    left:0px;
+    right:1px;
+    top: 0px;
+    margin:-0.2em;
+    background: white;
+    -webkit-appearance: none;
+   
+    
+}
+
+.new-checkbox{
+    content: url(checkbox-before-space.png);
+    -webkit-appearance: none;
+    position: relative;
+    top:0.5em;
+}
+
+.new-checkbox:checked{
+    content: url(checkbox-check-background.png);
+    -webkit-appearance: none;
+    position: relative;
+    top:0.5em;
+}
+
 
 .contacts{
     background: white;
@@ -282,7 +399,7 @@ select {
 
 .position-ribbon-right{
     position:absolute;
-    right:-1.2em;
+    right:-1.15em;
     top: 6.2em;
 }
 
@@ -359,7 +476,8 @@ select {
 .ad-position{
     position: absolute;
     left:0px;
-    top:0px
+    top:0px;
+    
     
 }
 
@@ -434,10 +552,6 @@ select {
 }
 
 
-h4{
-    color: white;
-    padding-top:5px
-}
 
 .center{
     text-align: center;
@@ -512,4 +626,23 @@ h4{
 .float{
     float: right
 }
+
+
+@media (max-width: 768px) {
+    
+    .left-col{
+    background: white;
+    border: 0px;
+    height: auto;
+    
+    }
+    
+    .arrow-box{
+	opacity: 0;
+    }
+    
+}
+
+
+
 
