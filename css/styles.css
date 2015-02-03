@@ -86,7 +86,7 @@ h6{
 	height: 0;
 	width: 0;
 	position: absolute;
-	pointer-events: none;
+	
 	border-color: rgba(255, 255, 255, 0);
 	border-bottom-color: #ffffff;
 	border-width: 25px;
@@ -304,26 +304,7 @@ background:#cccccc;
     padding: 20px
 }
 
-//*select {
-    float:right;
-    margin: 0.5px;
-    border: 1px solid #111;
-    background: transparent;
-    width: 150px;
-    padding: 5px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    height: 34px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background:url(http://www.stackoverflow.com/favicon.ico) 96% / 18% no-repeat;
-}*//
 
-.caret{
-    color:orange;
-    font-weight: bold
-}
 .act-channels{
     background: white;
     border-right: 2px solid #e6e6e6;
